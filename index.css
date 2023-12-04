@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+body {
+    font-family: 'RocknRoll One';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 2px;
+    grid-template-areas:
+            ". . ."
+            ". . ."
+            ". . ."
+            ". . .";
+}
+
+#headline {
+    grid-area: 1;
+    font-size: 5em;
+}
+
+#hello-text {
+    font-size: 3em;
+    grid-area: 3;
+}
+
+#options-container {
+    grid-area: 4;
+}
+
+
+#instructions_link {
+    margin-top: 8vh;
+    font-size: larger;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: #50c5f3;
+    color: #ececec;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+
+.option-button {
+    height: 46px;
+    width: auto;
+    padding: 8px;
+    margin: 10px;
+    background: #F3D250;
+    color:#32333c;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    position: relative;
+    top: 15px;
+    font-size: 1.2em;
+    border: none;
+}
+
+.option-button:hover {
+    background: #32333c;
+    color:#F3D250;
+}

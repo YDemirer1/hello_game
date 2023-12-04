@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+#instructions_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh;
+}
+
+#go_back {
+    font-size: larger;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: #50c5f3;
+    padding: 1vh;
+    border-radius: 5px;
+    color: #ececec;
+}
+
+body {
+    font-family: 'RocknRoll One';
+    font-size: medium;
+}
